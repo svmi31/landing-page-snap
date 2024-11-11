@@ -1,0 +1,122 @@
+* {
+    margin-top: 8px;
+    font-family: 'Arial', sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  body {
+    overflow-x: hidden;
+    background-color: #fef8f8;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .groupe1 {
+    display: flex;
+    gap: 50px;
+  }
+  .groupe2{
+    display: flex;
+    gap: 45px;
+    margin-right: 25px;
+  }
+  .groupe1 a, .groupe2 a{
+    color: #625f5f;
+    font-weight: 600;
+  }
+  #logo{
+    position: relative;
+    top: -8px;
+  }
+  #menu-burger{
+    display: none;
+  }
+  #motcle{
+    border: 1px solid #625f5f;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .menu-deroulant-option {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.358);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  .menu-deroulant-option a {
+    color: black;
+    display: block;
+    text-align: left;
+    position: relative;
+    padding: 14px;
+  }
+  .menu-deroulant-option a:hover {
+    background-color: #f1f1f1;
+  }
+  .menu-deroulant:hover .menu-deroulant-option {
+    display: block;
+  }
+ #icon{
+  position: relative;
+  top: 3px;
+ }
+ .groupe3{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  margin-left: 180px;
+ }
+ .groupe3 #image_hero{
+  width: 70%;
+  margin-left: 100px;
+ }
+ .groupe3 h1{
+  font-size: 6em;
+  width: 650px;
+ }
+ .groupe3 p{
+  margin-bottom: 70px;
+  width: 520px;
+  font-family: 'arial';
+  font-weight: 500;
+  font-size: 25px;
+  color: #6a6868;
+  position: relative;
+  top: -15px;
+ }
+ .groupe3 .btn{
+  margin-bottom: 80px;
+ }
+ .groupe3 .btn a{
+  color: #fff;
+  background-color: black;
+  padding: 16px;
+  font-size: 24px;
+  border-radius: 15px;
+ }
+.groupe3 .btn a:hover{
+  transform: translateY(-2px);
+  transition: ease 0.5s;
+}
+ .groupe3 img{
+  width: 100px;
+  justify-content: space-evenly;
+ }
+  .attribution {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .attribution a {
+    color: hsl(228, 97%, 28%);
+    font-family: 'kelsi';
+  }
+  
+@media screen and (max-width: 758px) {
+    #menu-burger{
+      display: block;
+    }
+}
